@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;500;700&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif KR', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 500px;
+    /* overflow: ; */
+    border:1px solid black;
+    overflow: scroll;
+    position: relative;
+    flex-direction: column;
+    gap: 40px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),url(../media/content/bg_1.jpg); */
+    background-size: 80%;
+    background-position: 100px 270px;
+    padding-top: 65px;
+}
+.main_body{
+
+}
+.content_area{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+}
+.content_item{
+    width: 90%;
+    border: 1px solid #1216c7;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 50px;
+    background: #fdd689;
+}
+.music_btn{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 24px;
+    border: 2px solid #1216c7;
+    border-radius: 50px;
+    background-color: #fdd689;
+    color: #1216c7;
+    font-weight: bold;
+    /* background: transparent; */
+    z-index: 9999;
+}
+.volume_btn{
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    /* width: 50px;
+    height: 24px; */
+    padding: 8px 16px;
+    border: 1px solid #1216c7;
+    border-radius: 50px;
+    background: #fdd689;
+    color: #1216c7;
+    font-weight: bold;
+    /* background: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 9999;
+}
+.volume_btn img{
+    width: 30px;
+}
+.content_box{display: flex;justify-content: center;align-items: center;position: relative;}
+
+.fixed_box{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.none{
+    display: none;
+}
+.volume_icon{
+    display: none; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

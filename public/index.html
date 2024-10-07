@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web App</title>
+    <title>소진</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <h1>Welcome to My Web App!</h1>
+    <!-- 
+    https://sojin22love.vercel.app/2024/index.html
+     -->
+
+    <!-- https://hamhmin.github.io/23_11_20_sojin_birthday/ -->
+        <button class="music_btn">ON</button>
+        <button class="volume_btn">영상 음소거<img src="./media/icon/volume_2.png" alt="이미지 로딩중~" class="mute_all_btn"></button>
+        <h1>we log</h1>
+            
+        <div class="content_box"><img src="dummy.png" real-src="./media/content/musical_1.jpg" alt="이미지 로딩중~" class="content_item content_item_delay" data-aos="fade-up"></div>
+        <h1>END</h1>
+
+        <div class="fixed_box ">
+            <img src="./media/icon/volume_1.png" alt="이미지 로딩중~" class="volume_icon volume_on none">
+            <img src="./media/icon/volume_2.png" alt="이미지 로딩중~" class="volume_icon volume_off none">
+        </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
